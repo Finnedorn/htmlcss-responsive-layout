@@ -20,6 +20,7 @@
 
 /*icons 
 
+<i class="fa-solid fa-bars"></i> --bars
 <i class="fa-solid fa-file-code"></i> --file-code
 <i class="fa-solid fa-compass-drafting"></i> --compass
 <i class="fa-solid fa-laptop-code"></i> --laptop-code
@@ -106,6 +107,10 @@ a {
     padding-bottom: 50px;
 }
 
+.big-padding {
+    padding-top: 100px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -158,6 +163,41 @@ a {
 
 nav {
     background-color: var(--color-primary-blue);
+    width: 100%;
+}
+
+.nav-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.nav-logo-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-logo-wrapper>img {
+    width: 100px;
+}
+
+.nav-icon-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-icon-wrapper>i {
+    color: var(--color-primary-white);
+    font-size: 1.8rem;
+}
+
+.nav-list {
+    display: none;
 }
 
 /*main*/
@@ -322,6 +362,10 @@ nav {
 
 footer {
     background-color: var(--color-secondary-black);
+}
+
+.footer-wrapper>p {
+    padding: 40px 0px;
 }
 
 /*media quary*/

@@ -12,13 +12,38 @@
 </head>
 <body>
     <header>
-        <nav class="text-white">
-            <div></div>
+        <!--navbar-->
+        <nav class="p-fixed p-index-high">
+            <div class="container nav-flex">
+                <div class="nav-logo-wrapper">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="nav-icon-wrapper">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="nav-list">
+                    <li>
+                        Planning
+                    </li>
+                    <li>
+                        Testimonials
+                    </li>
+                    <li>
+                        Features
+                    </li>
+                    <li>
+                        About us
+                    </li>
+                    <li>
+                        <a href="#">Get Started</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
         <!--intro-->
-       <section>
+       <section class="big-padding">
             <div id="intro" class="container padding-x d-flex align-stretch space-between">
                 <div class="intro-card-wrapper">
                     <div class="intro-card bg-azure text-center border-rounded-small">
@@ -192,7 +217,7 @@
        </section>
        <!--benefits-->
        <section class="bg-purple">
-            <div class="container padding-x">
+            <div id="benefits" class="container padding-x">
                 <div class="benefit-header text-white text-center">
                     <h2>
                         Benefits of working with us
@@ -311,7 +336,7 @@
        </section>
        <!--about us-->
        <section>
-            <div class="container padding-x">
+            <div id="about-us" class="container padding-x">
                 <div class="about-text-wrapper">
                     <h2 class="text-purple">
                         About us 
@@ -341,7 +366,7 @@
             </div>  
        </section>
        <!--cta-->
-       <section class="bg-purple">
+       <section id="cta" class="bg-purple">
             <div class="container  padding-x">
                 <div class="cta-text-wrapper text-center text-white">
                     <h3>Get Started</h3>
@@ -364,9 +389,15 @@
             </div>
        </section> 
     </main>
-    <footer >
-        <div>
+    <footer>
+        <div class="footer-wrapper text-center text-white container padding-x">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum dolore officiis
 
+            </p>
+            <p>
+                <span>Lorem ipsum</span> dolor, sit amet consectetur adipisicing elit. <span>Boolean careers</span>
+            </p>
         </div>
     </footer>
 </body>
