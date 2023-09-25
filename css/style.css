@@ -25,6 +25,9 @@
 <i class="fa-solid fa-laptop-code"></i> --laptop-code
 <i class="fa-solid fa-volume-high"></i> --speaker
 <i class="fa-solid fa-arrow-down"></i> --arrow-down
+<i class="fa-solid fa-quote-right"></i> --quotation
+<i class="fa-solid fa-quote-left"></i> --quotation-upside
+
 */
 
 /*position*/
@@ -44,16 +47,23 @@
 /*miscellaeous*/
 
 h2 {
+    font-size: 2.5rem;
     padding-bottom: 50px;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-bottom: 20px;
 }
 
 p {
     line-height: 30px;
+    font-size: 1.3rem;
+}
+
+p>i {
+    font-size: 1.8rem;
+    margin: 3px;
 }
 
 img {
@@ -127,7 +137,6 @@ ul>li {
 
 nav {
     background-color: var(--color-primary-blue);
-    color: var(--color-primary-white);
 }
 
 /*main*/
@@ -157,37 +166,61 @@ nav {
    padding: 40px 0px;
 }
 
-.planning-text {
-   color: var(--color-primary-white);
-   padding-top: 80px; 
-}
-
-.planning-text>h2 {
-    font-size: 2.3rem;
-}
-
 .planning-card {
     padding: 40px;
 }
 
+.planning-text {
+   padding-top: 80px; 
+}
+
 .planning-card-text {
-    color: var(--color-secondary-black);
     padding: 30px 0px;
 }
 
 .planning-card-icon{
     display: inline-block;
-    color: var(--color-secondary-black);
     padding: 15px 20px;
     margin-top: 30px;
+} 
+
+/*testimonials*/
+
+.testimonial-header>* {
+    padding: 30px;
 }
 
+.testimonial-header>h3, .testimonial-card-text>h3 {
+    font-weight: 100;
+    padding: 30px 0;
+}
+
+.testimonial-header>h2 {
+    color: var(--color-primary-purple);
+}
+
+.testimonial-card {
+    padding-top: 40px;
+    margin: 40px 0px;
+}
+
+.testimonial-card-text {
+    padding: 30px;
+}
+
+.testimonial-card-img>img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
 /*footer*/
 
 footer {
     background-color: var(--color-secondary-black);
-    color: var(--color-primary-white);
 }
 
 /*media quary*/
