@@ -26,3 +26,188 @@
 <i class="fa-solid fa-volume-high"></i> --speaker
 
 */
+
+/*position*/
+
+.p-fixed {
+    position: fixed;
+}
+
+.p-index-high {
+    z-index: 100;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/*miscellaeous*/
+
+h2 {
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.padding-y {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.padding-x {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-wrapper {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.propic-wrapper {
+    border-radius: 50%;
+}
+
+.border-rounded-small {
+    border-radius: 30px;
+}
+
+.border-rounded-big {
+    border-radius: 40px;
+}
+
+.bg-azure {
+    background-color: var(--color-secondary-azure);
+}
+
+.bg-white {
+    background-color: var(--color-primary-white);
+}
+
+.bg-purple {
+    background-color: var(--color-primary-purple);
+}
+
+.text-blue {
+    color: var(--color-primary-blue);
+}
+
+.text-white {
+    color: var(--color-primary-white);
+}
+
+.text-black {
+    color: var(--color-secondary-black);
+}
+
+/*header*/
+
+nav {
+    background-color: var(--color-primary-blue);
+    color: var(--color-primary-white);
+}
+
+/*main*/
+
+/*intro*/
+
+.intro-card-wrapper {
+    padding: 20px 20px;
+}
+
+.intro-card {
+    padding: 20px;
+    height: 100%;
+}
+
+.intro-card-icon {
+    font-size: 6rem;
+}
+
+.intro-card-text {
+    padding: 20px 50px;
+}
+
+/*planning*/
+
+.planning-wrapper {
+   padding: 40px 0px;
+}
+
+.planning-text {
+   color: var(--color-primary-white);
+   padding-top: 80px; 
+}
+
+.planning-text>h2 {
+    font-size: 2.3rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: var(--color-secondary-black);
+    color: var(--color-primary-white);
+}
+
+/*media quary*/
+
+@media screen and (min-width: 576px) {
+
+    .d-flex {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .align-stretch {
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .space-between {
+        justify-content: space-between;
+    }
+
+    #intro .intro-card-wrapper {
+        width: calc(100% / 3);
+    }
+
+    #intro .intro-card-wrapper:first-child {
+        width: calc((100% / 3) * 2);
+    }
+
+}
+
+/*appare il mockup*/
+@media screen and (min-width: 768px) {
+     
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+}
