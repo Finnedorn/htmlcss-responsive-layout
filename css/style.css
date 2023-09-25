@@ -27,10 +27,15 @@
 <i class="fa-solid fa-arrow-down"></i> --arrow-down
 <i class="fa-solid fa-quote-right"></i> --quotation
 <i class="fa-solid fa-quote-left"></i> --quotation-upside
+<i class="fa-brands fa-linkedin"></i> --linkedIN
 
 */
 
 /*position*/
+
+.p-relative {
+    position: relative;
+}
 
 .p-fixed {
     position: fixed;
@@ -44,10 +49,15 @@
     position: absolute;
 }
 
+.p-top-right {
+    top: 0;
+    right: 170px;
+}
+
 /*miscellaeous*/
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-bottom: 50px;
 }
 
@@ -57,7 +67,7 @@ h3 {
 }
 
 p {
-    line-height: 30px;
+    line-height: 40px;
     font-size: 1.3rem;
 }
 
@@ -247,6 +257,38 @@ nav {
     padding: 10px;
     font-size: 1.3rem;
 }
+
+/*about-us*/
+
+.about-text-wrapper>p {
+    padding: 30px 0px;
+}
+
+.about-img>img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 50%;
+}
+
+.quotation {
+    color: var(--color-primary-purple);
+    font-size: 6rem;
+}
+
+.about-img-wrapper>h3 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.about-us-text-button {
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
 
 
 /*footer*/
