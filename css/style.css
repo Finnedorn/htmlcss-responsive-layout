@@ -47,7 +47,7 @@
 /*miscellaeous*/
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-bottom: 50px;
 }
 
@@ -74,6 +74,12 @@ ul>li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    display: inline;
+    color: var(--color-primary-white);
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -94,7 +100,7 @@ ul>li {
 }
 
 .button-wrapper {
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 .propic-wrapper {
@@ -123,6 +129,10 @@ ul>li {
 
 .text-blue {
     color: var(--color-primary-blue);
+}
+
+.text-purple {
+    color: var(--color-primary-purple);
 }
 
 .text-white {
@@ -216,6 +226,28 @@ nav {
     border-radius: 50%;
     margin: 0 auto;
 }
+
+/*benefit-cards*/
+
+.benefit-card-wrapper {
+    margin: 40px 0px;
+}
+
+.benefit-card-text {
+    padding: 40px;
+}
+
+.benefit-card-text>h2 {
+    font-size: 4rem;
+}
+
+.benefit-button {
+    margin-top: 40px;
+    width: 40%;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
 
 /*footer*/
 
