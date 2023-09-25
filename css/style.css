@@ -21,6 +21,7 @@
 /*icons 
 
 <i class="fa-solid fa-bars"></i> --bars
+<i class="fa-brands fa-apple"></i> --apple logo
 <i class="fa-solid fa-file-code"></i> --file-code
 <i class="fa-solid fa-compass-drafting"></i> --compass
 <i class="fa-solid fa-laptop-code"></i> --laptop-code
@@ -131,6 +132,10 @@ a {
     border-radius: 50px;
 }
 
+.bg-blue {
+    background-color: var(--color-primary-blue);
+}
+
 .bg-azure {
     background-color: var(--color-secondary-azure);
 }
@@ -162,7 +167,6 @@ a {
 /*header*/
 
 nav {
-    background-color: var(--color-primary-blue);
     width: 100%;
 }
 
@@ -219,6 +223,20 @@ nav {
 
 .intro-card-text {
     padding: 20px 50px;
+}
+
+.intro-button-wrapper {
+    width: 250px;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+}
+
+.intro-button-wrapper>a>i {
+    padding-right: 5px;
+}
+
+.intro-img-position {
+    bottom: -45px;
 }
 
 /*planning*/
