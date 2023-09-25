@@ -1,0 +1,28 @@
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*palette*/
+
+:root {
+    --color-primary-white: #fffeff;
+    --color-primary-blue: #0084fd;
+    --color-primary-purple: #9792e4;
+    --color-secondary-black: #343334;
+    --color-secondary-azure: #b8dcff;
+    --color-secondary-yellow: #fdc061;
+}
+
+/*icons 
+
+<i class="fa-solid fa-file-code"></i> --file-code
+<i class="fa-solid fa-compass-drafting"></i> --compass
+<i class="fa-solid fa-laptop-code"></i> --laptop-code
+<i class="fa-solid fa-volume-high"></i> --speaker
+
+*/
