@@ -28,6 +28,7 @@
 <i class="fa-solid fa-quote-right"></i> --quotation
 <i class="fa-solid fa-quote-left"></i> --quotation-upside
 <i class="fa-brands fa-linkedin"></i> --linkedIN
+<i class="fa-solid fa-circle"></i> --dot
 
 */
 
@@ -253,7 +254,7 @@ nav {
 
 .benefit-button {
     margin-top: 40px;
-    width: 40%;
+    width: 150px;
     padding: 10px;
     font-size: 1.3rem;
 }
@@ -284,9 +285,35 @@ nav {
 
 .about-us-text-button {
     font-size: 1.3rem;
-    width: 50%;
+    width: 300px;
     text-align: center;
     padding: 15px;
+}
+
+/*cta*/
+
+.cta-text-wrapper{
+    
+}
+
+.cta-text-wrapper>h3 {
+    font-weight: 100;
+}
+
+#free {
+    font-size: 5rem;
+    color: var(--color-secondary-yellow);
+}
+
+.cta-button {
+    color: var(--color-primary-purple);
+    background-color: var(--color-primary-white);
+    font-size: 1.5rem;
+    width: 345px;
+    padding: 20px 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
