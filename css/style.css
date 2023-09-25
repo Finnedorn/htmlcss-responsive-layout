@@ -54,7 +54,7 @@
 
 .p-top-right {
     top: 0;
-    right: 170px;
+    right: 130px;
 }
 
 /*miscellaeous*/
@@ -94,13 +94,13 @@ a {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .padding-y {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .padding-x {
@@ -209,7 +209,7 @@ nav {
 /*intro*/
 
 .intro-card-wrapper {
-    padding: 20px 20px;
+    padding: 30px 0px;
 }
 
 .intro-card {
@@ -228,7 +228,7 @@ nav {
 .intro-button-wrapper {
     width: 250px;
     font-size: 1.5rem;
-    padding: 20px 40px;
+    padding: 20px 0px;
 }
 
 .intro-button-wrapper>a>i {
@@ -298,7 +298,7 @@ nav {
 
 /*benefit-cards*/
 
-.benefit-card-wrapper {
+.benefit-card {
     margin: 40px 0px;
 }
 
@@ -325,8 +325,8 @@ nav {
 
 .about-img>img {
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: block;
     border-radius: 50%;
 }
@@ -350,10 +350,6 @@ nav {
 
 /*cta*/
 
-.cta-text-wrapper{
-    
-}
-
 .cta-text-wrapper>h3 {
     font-weight: 100;
 }
@@ -373,8 +369,6 @@ nav {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
 
 /*footer*/
 
@@ -396,7 +390,6 @@ footer {
     }
 
     .align-stretch {
-        align-items: stretch;
         align-content: stretch;
     }
 
@@ -405,21 +398,129 @@ footer {
     }
 
     #intro .intro-card-wrapper {
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 30px);
     }
 
     #intro .intro-card-wrapper:first-child {
-        width: calc((100% / 3) * 2);
+        width: calc((100% / 3) * 2 - 15px);
     }
 
 }
 
-/*appare il mockup*/
-@media screen and (min-width: 768px) {
-     
+@media screen and (min-width: 992px) {
+    
+    .intro-card-text {
+        padding: 20px 30px;
+    }
+
+    .planning-img {
+        padding: 40px;
+    }
+
+    .testimonial-card {
+        padding-top: 0px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .testimonial-card-img {
+        width: 30%;
+        padding: 35px 25px;
+    }
+
+    .testimonial-card-text {
+        width: 70%;
+        padding: 0px 65px;
+    }
+
+    .benefit-card-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .benefit-card {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .about-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .about-img-wrapper {
+        width: 50%;
+        padding: 0px 80px;
+    }
+
+    .p-top-right {
+        top: 0;
+        right: 20px;
+    }
+
+
+    .about-text-wrapper {
+        width: 50%;
+        padding: 0px 30px;
+    }
+
+    .padding-text-center {
+       padding: 0px 125px; 
+    }
 }
 
-
+/*appare il mockup*/
 @media screen and (min-width: 1200px) {
+
+    .nav-icon-wrapper {
+        display: none;
+    }
+
+    .nav-list {
+        display: block;
+        width: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--color-primary-white);
+    }
+
+    .button-nav {
+        background-color: var(--color-primary-white);
+        border-radius: 50px;
+        padding: 10px 15px;
+    }
+
+    .button-nav>a {
+        color: var(--color-secondary-black);
+    }
+
     
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #planning {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .planning-wrapper {
+        width: calc(100% / 2 - 40px)
+    }
+    
+    .type-b {
+        padding: 200px 50px 0px;
+    }
+
+    .benefit-card {
+        width: calc(100% / 3 - 20px);
+        align-content: flex-start;
+    }
+
 }
