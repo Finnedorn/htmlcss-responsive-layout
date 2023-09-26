@@ -229,6 +229,7 @@ nav {
     width: 250px;
     font-size: 1.5rem;
     padding: 20px 0px;
+    margin-top: 30px;
 }
 
 .intro-button-wrapper>a>i {
@@ -236,7 +237,7 @@ nav {
 }
 
 .intro-img-position {
-    bottom: -45px;
+    bottom: -24px;
 }
 
 /*planning*/
@@ -384,16 +385,10 @@ footer {
 
 @media screen and (min-width: 576px) {
 
-    .d-flex {
+    #intro {
         display: flex;
         flex-flow: row wrap;
-    }
-
-    .align-stretch {
         align-content: stretch;
-    }
-
-    .space-between {
         justify-content: space-between;
     }
 
@@ -411,6 +406,10 @@ footer {
     
     .intro-card-text {
         padding: 20px 30px;
+    }
+
+    .intro-card-img {
+        width: 60%;
     }
 
     .planning-img {
@@ -497,11 +496,14 @@ footer {
     .button-nav>a {
         color: var(--color-secondary-black);
     }
-
     
     .container {
         width: 80%;
         margin: 0 auto;
+    }
+
+    #intro {
+        align-content: flex-start;
     }
 
     #planning {
@@ -521,6 +523,36 @@ footer {
     .benefit-card {
         width: calc(100% / 3 - 20px);
         align-content: flex-start;
+    }
+
+    .big-card {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+    }
+
+    #intro {
+        align-content: center;
+    }
+
+    .intro-card {
+        padding: 40px;
+    }
+
+    .intro-card-text-big {
+        width: 50%;
+    }
+
+    .intro-card-img {
+        width: 50%;
+    }
+
+    .intro-card-img>img {
+        max-width: 400px;
+    }
+    
+    .intro-img-position {
+        bottom: -44px;
     }
 
 }
